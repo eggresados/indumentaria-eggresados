@@ -1,0 +1,393 @@
+/* start layout */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* end layout */
+
+
+/*start NavBar */
+
+.logo {
+  width: 180px;
+}
+.collapse {
+  margin-left: 100px;
+}
+.collapse ul li {
+  margin: 0px 20px;
+  font-weight: bold;
+}
+.collapse a:hover {
+  color:#03989e;
+}
+/* end NavBar */
+
+
+/* start Carousel */
+
+.carousel-item{
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* end Carousel */
+
+/* start productos section */
+
+.productos .caja img {
+  width: 75px;
+  border-radius: 50%;
+  border: 3px solid #09a2aa
+}
+.productos {
+  text-align: center;
+}
+.productos .productosBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos h2 {
+  font-family: 'Lacquer', cursive;
+  padding: 50px auto;
+  font-size: 50px;
+  
+}
+.productos .titulo {
+  padding: 40px;
+}
+.productos .caja {
+  box-sizing: border-box;
+  width: 15.5%;
+  margin: 0.5%;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+.productos .caja:hover{
+  -webkit-transform: scale(1.2);
+  -webkit-transition-duration: 0.6s;
+}
+.productos .text {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+  
+}
+.productos.text p {
+  font-weight: bold;
+}
+/* end productos section */
+
+
+/* Egresados y egresaditos start */
+
+.niveles {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+ 
+}
+.niveles .cuadro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 0.5% 2%;
+}
+.niveles .cuadro:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.niveles .cuadro img {
+  width: 100%;
+}
+
+
+
+
+/* Egresados y egresaditos end */
+
+
+
+
+/* start valores div */
+.values {
+  margin: 20px auto;
+  text-align: center;
+  width: 87%;
+  border-top: 3px solid #4aab10;
+}
+.values .logoegg {
+  box-sizing: border-box;
+  width: 20%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.valores img{
+  height: 65px;
+  border-radius: 50%;
+}
+.valores div{
+  box-sizing: border-box;
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+}
+.valores {
+
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+/* end valores div */
+
+/* form */
+.formulario h3 {
+  padding: 20px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.formulario {
+  background-image: url(images/black-road-bike-leaning-on-red-blue-and-white-wing-graffiti-545008.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  text-align: center;
+
+
+}
+form {
+  width: 400px;
+  margin: auto;
+  background-color: #252525bb;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+form h2 {
+  font-family: 'Lacquer', cursive;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none;
+} 
+textarea {
+  max-height: 140px;
+  min-height: 40px;
+}
+#boton {
+  background-color: #31384ae8;
+  color: #ffffff;
+  padding: 17px;
+  width: 50%;
+  border-radius: 10px;
+}
+#boton:hover {
+  cursor: pointer;
+  background-color:  #31384a9d;
+  
+
+}
+/* end form section */
+
+/* start quienes somos */
+
+.nosotros {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #006266;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.box {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.box h2 {
+font-family: 'Lacquer', cursive;
+margin-bottom: 20px;
+}
+.nosotros p {
+  width: 100%;
+}
+/* end Quienes somos */
+
+
+
+/* start redes section */
+
+.redes{
+  background-color: #003133;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px
+}
+.redes h4 {
+  font-family: 'Lacquer', cursive;
+  display: inline-block;
+  margin: auto 20px;
+}
+.logosRedes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.redes img {
+  width: 35px;
+  border-radius: 50%;
+  margin: auto 6px;
+}
+.redes img:hover {
+  -webkit-transition: 0.5s;
+  width: 45px;
+}
+/* end redes section */
+
+
+/* start btn whatsapp */
+.whatsappbtn {
+  display:block;
+  width:70px;
+  height:70px;
+  position: fixed;
+  right:20px;
+  bottom:40px;
+  text-align:center;
+  z-index:999;
+}
+.whatsappbtn img {
+  border-radius: 50%;
+}
+/* end btn whatsapp */
+
+
+
+  /* Mobile */
+
+  @media (max-width: 1000px){
+    .productos .caja {
+      box-sizing: border-box;
+      float: left;
+      width: 32%;
+      margin: 0.5%;
+      padding: 10px;
+      border-radius: 10%;
+      margin-bottom: 50px;
+    }
+    .valores {
+      width: 97%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+      padding: 20px;
+    }
+    .valores div{
+      box-sizing: border-box;
+      text-align: center;
+      width: 80%;
+      padding: 20px;
+    }
+    .niveles .cuadro {
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-sizing: border-box;
+      width: 90%;
+      margin: 0.5% 2%;
+      padding: 10px;
+    }
+
+  @media (max-width: 700px) {
+    .carousel-item {
+      height: 280px;
+    }
+    #carouselExampleIndicators {
+      height: 127px;
+    }
+    #carouselExampleIndicators .carousel-indicators {
+      display: none;
+    }
+    .productos .caja {
+      box-sizing: border-box;
+      float: left;
+      width: 47%;
+      margin: 0.5%;
+      padding: 10px;
+      border-radius: 10%;
+      margin-bottom: 50px;
+    }
+    .values .logoegg {
+      box-sizing: border-box;
+      width: 40%;
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+    form {
+      width: 70%;
+    }
+    .productos .text {
+      width: 70%;
+      margin: auto;
+    }
+    @media (max-width: 380px) {
+
+      .productos .caja {
+        box-sizing: border-box;
+        float: left;
+        width: 47%;
+        margin: 0.5%;
+        padding: 10px;
+        border-radius: 10%;
+        margin-bottom: 50px;
+      }
+      .values .logoegg {
+        box-sizing: border-box;
+        width: 50%;
+        margin-top: 70px;
+        margin-bottom: 30px;
+      }
+      .redes img {
+        width: 30px;
+        border-radius: 50%;
+        margin: auto 6px;
+      }
+      .redes img:hover {
+        width: 45px;
+      }
+      .redes h4 {
+        font-family: 'Lacquer', cursive;
+        display: inline-block;
+        margin: auto 20px;
+        font-size: 20px;
